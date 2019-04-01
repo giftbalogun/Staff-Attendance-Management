@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.balogungift.project1">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:name="com.balogungift.project1.context.ApplicationContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.balogungift.project1.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.MenuActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.AddFacultyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.AddStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.ViewFacultyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.ViewStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.TestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.ViewStudentByBranchYear"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.AddAttandanceSessionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.AddAttendanceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.ViewAttendanceByFacultyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.balogungift.project1.activity.ViewAttendancePerStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+    </application>
+
+</manifest>
